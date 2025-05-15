@@ -1,0 +1,31 @@
+name: store
+description: "Smart Store Application"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.16
+  http: ^1.1.0
+  shared_preferences: ^2.2.2  # Для хранения токена аутентификации
+  provider: ^6.1.1  # Для управления состоянием
+  dio: ^5.4.0  # Для удобной работы с HTTP запросами
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
